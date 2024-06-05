@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ruda:wght@400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  font-size: 0.9rem;
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+  background: radial-gradient(88.26% 226.96% at 76.81% 48.27%, #224244 0%, #182E2F 100%);
+  letter-spacing: 0.02rem;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0 0 15px;
+}
+
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+
+@media (hover: hover) {
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
