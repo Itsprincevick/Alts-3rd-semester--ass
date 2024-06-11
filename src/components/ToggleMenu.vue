@@ -164,6 +164,7 @@ export default {
   max-width: 250px;
   height: 100vh;
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   display: flex;
   flex-direction: column;
   padding: 30px 0 0 20px;
