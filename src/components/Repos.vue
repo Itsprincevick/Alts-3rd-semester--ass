@@ -350,7 +350,9 @@ p {
 .repo-name {
   color: #ffffff;
   font-size: 1.9rem;
-  word-break: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   margin: 20px 0 10px 0;
 }
 
